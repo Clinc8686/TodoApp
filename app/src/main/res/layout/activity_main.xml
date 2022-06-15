@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/FormTaskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:inputType="textPersonName"
+        android:text="Insert task name" />
+
+    <EditText
+        android:id="@+id/FormTaskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:inputType="textPersonName"
+        android:text="Insert description" />
+
+    <DatePicker
+        android:id="@+id/FormDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/scrollText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aloah!" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="70dp"
+        android:layout_weight="0"
+        android:gravity="center|bottom">
+
+        <Button
+            style="@style/navigationButton"
+            android:id="@+id/addButton"
+            android:text="add task"
+            />
+
+        <Button
+            style="@style/navigationButton"
+            android:id="@+id/SyncButton"
+            android:text="Sync tasks" />
+
+        <Button
+            style="@style/navigationButton"
+            android:id="@+id/removeButton"
+            android:text="remove task" />
+    </LinearLayout>
+
+</LinearLayout>
