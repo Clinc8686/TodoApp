@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.DatePicker;
 import android.widget.EditText;
 
-public class todo_form extends AppCompatActivity {
+public class TodoForm extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

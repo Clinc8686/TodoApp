@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addtask(View view) {
-        Intent intent = new Intent(this, todo_form.class);
+        Intent intent = new Intent(this, TodoForm.class);
         startActivityForResult(intent, 1);
     }
 

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TodoApp">
         <activity
-            android:name=".todo_form"
+            android:name=".TodoForm"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
