@@ -19,7 +19,7 @@ import java.util.Date;
 public class DatabaseHelper extends SQLiteOpenHelper{
 
     private static boolean today = true;
-    private static int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 1;
     private static final String DATABASE_NAME = "ToDoApplication";
     private static final String TABLE_NAME = "ToDos";
     public static final String KEY_NAME = "NAME";
